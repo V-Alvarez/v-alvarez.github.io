@@ -10,7 +10,7 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
-		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+		
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload">
@@ -70,26 +70,27 @@
 						<section id="two" class="spotlights">
 							<section>
 								<a class="image">
-									<img class="mySlides" src="images/Design/SOW_1.jpg" alt="" data-position="center center" />
-									<img class="mySlides" src="images/Design/SOW_2.jpg" alt="" />
-									<img class="mySlides" src="images/Design/SOW_3.jpg" alt="" />
-									<img class="mySlides" src="images/Design/SOW_4.jpg" alt="" />
-									
-									<button class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
-									<button class="w3-button w3-display-right" onclick="plusDivs(+1)">&#10095;</button>
+									<img class="Maleficent" src="images/Design/SOW_3.jpg" alt="" data-position="top center" />
+									<img class="Maleficent" src="images/Design/SOW_1.jpg" alt="" data-position="top center" />
+									<img class="Maleficent" src="images/Design/SOW_2.jpg" alt="" data-position="top center" />
+									<img class="Maleficent" src="images/Design/SOW_4.jpg" alt="" data-position="top center" />
 								
+								   
+									<button class="w3-button w3-display-left" onclick="plusDivs1(-1)">&#10094;</button>
+									<button class="w3-button w3-display-right" onclick="plusDivs1(+1)">&#10095;</button>
+							   
 								</a>
 								<script>
 									var slideIndex = 1;
-									showDivs(slideIndex);
-							 
-									function plusDivs(n) {
-										showDivs(slideIndex += n);
+									showDivs1(slideIndex);
+							
+									function plusDivs1(n) {
+										showDivs1(slideIndex += n);
 									}
-							 
-									function showDivs(n) {
+							
+									function showDivs1(n) {
 										var i;
-										var x = document.getElementsByClassName("mySlides");
+										var x = document.getElementsByClassName("Maleficent");
 										if (n > x.length) { slideIndex = 1 }
 										if (n < 1) { slideIndex = x.length }
 										for (i = 0; i < x.length; i++) {
@@ -97,18 +98,16 @@
 										}
 										x[slideIndex - 1].style.display = "block";
 									}
-								</script>								 
+								</script>
 								<div class="content">
 									<div class="inner">
 										<header class="major">
 											<h3>Scenes of the West</h3>
 										</header>
-										<p>Scrap wood, twine, mirrors | Fall 2019 | Life-size replication </br></br><strong>Topo</strong> is a wearable wood sculpture inspired by outdoor landscapes and features of topographic maps. Its different elements - stacked arm slices, cascading mountains, mirrors, and directional arrows - come together to describe my all-consuming
-										relationship with the outdoors. The elements serve as tokens of my experiences and adventures outside, preserving my memories of these outdoor landscapes in a physical framework. <strong>Topo</strong> appears to grow out of my body, almost in a parasitic fashion, which symbolizes how my affinity for the outdoors has taken over my physical and spiritual self.</p>
+										<p>Acrylic | Nov 2022 | 4" x 4"</p>
 									</div>
 								</div>
 							</section>
-							<section id="two" class="spotlights">
 								<section>
 									<a class="image">
 										<img src="images/Paint/Bullseye.jpg" alt="" data-position="center center" />
